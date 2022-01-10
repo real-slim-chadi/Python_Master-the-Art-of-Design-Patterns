@@ -11,3 +11,4 @@ class Person(object):
 
 p = Person("John", 32)    # p is an object of type Person
 print("Type of Object:", type(p), "Memory Address:", id(p))
+p.get_person()
